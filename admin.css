@@ -1,0 +1,38 @@
+/*Use this file for any CSS tweaks to the Wordpress ADMIN*/
+
+/* new clearfix */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+#editorcontainer #content {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 14px;
+	}
+
+.rwmb-label {
+	padding-right: .5rem;
+	box-sizing: border-box;
+	}
+
+.rwmb-text,.rwmb-url,.rwmb-email{
+	width:90%;
+	}
+
+.rwmb-field.rwmb-divider-wrapper {
+	margin: 2rem 0;
+	}
+.rwmb-field.rwmb-heading-wrapper{
+	margin: 1rem 0 1.5rem;
+	}
+
+/*BEGIN At A Glance*/
+
+#dashboard_right_now .wpcf7_contact_form-count a:before {content:"\f111"!important}
+
+/*END At A Glance*/
